@@ -1,3 +1,4 @@
+import EventDescription from '@/components/EventDescription';
 import EventHeader from '@/components/EventHeader';
 import EventJoin from '@/components/EventJoin';
 import Nav from '@/components/Nav';
@@ -10,6 +11,7 @@ export default async function EventPage() {
       <EventHeader />
       <EventJoin />
       <PeopleAttending />
+      <EventDescription />
     </div>
   );
 }

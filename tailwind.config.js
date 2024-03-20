@@ -7,12 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        btn: {
-          background: "hsl(var(--btn-background))",
-          "background-hover": "hsl(var(--btn-background-hover))",
+        primary: '#152644',
+        secondary: '#FBF9F2',
+        tertiary: '#BCB5FA',
+        wonderViolet: {
+          400: '#9780fe',
+          500: '#8867fa',
         },
+        eggshell: '#f8f7f7',
       },
     },
   },
